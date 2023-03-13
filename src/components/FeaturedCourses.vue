@@ -104,8 +104,13 @@
 }
   .card {
     margin-bottom: 30px;
+    background-color: #f5f7fa ;
     border: none;
     height: 210px;
+  }
+
+  .card:hover {
+    background-color: white;
   }
   
   .card-img-top > img {
