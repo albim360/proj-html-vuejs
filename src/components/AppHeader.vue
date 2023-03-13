@@ -20,9 +20,9 @@
               </li>
               <li class="nav-item">
                 <form class="d-flex">
-                  <div class="input-group">
-                    <input class="form-control rounded-end" type="search" placeholder="Search" aria-label="Search">
-                    <span class="input-group-text rounded-start bg-white border-0"><i class="fas fa-search"></i></span>
+                  <div class="input-group form-control rounded-end ">
+                    <input class="border-0 mc-searchbar" type="search" placeholder="Search..." aria-label="Search">
+                    <span class="input-group-text bg-white border-0"><i class="fas aquagreen fa-search"></i></span>
                   </div>
                 </form>
               </li>
@@ -87,6 +87,11 @@
   
   .navbar-nav {
     margin-right: 1rem;
+  }
+
+  .mc-searchbar {
+    height: 33px;
+    width: 165px;
   }
   </style>
   
