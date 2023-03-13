@@ -3,7 +3,7 @@
     <section class="guide">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col">
+                <div class="col-5">
                     <h2 class="head-text">
                         Distant learning for further expansion
                     </h2>
@@ -110,7 +110,7 @@ button.download__button:hover {
 .img-on {
     position: absolute;
     top: 272px;
-    right: 248px;
+    right: 360px;
     object-fit: cover;
 }
 

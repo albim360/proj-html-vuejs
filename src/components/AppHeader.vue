@@ -14,7 +14,7 @@
                 <a :href="link.url" class="nav-link">{{ link.name }}</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#" class="nav-link nohover">
                     <i class="fa-regular fa-circle-user"></i>
                 </a>
               </li>
@@ -97,10 +97,17 @@
     width: 165px;
   }
 
-
+a {
+  padding-bottom: 0;
+}
 
   a:hover {
     color: #20AD96;
+  }
+
+  a:not(.nohover):hover {
+    border-bottom: 1px solid #20AD96;
+    /* padding-bottom: 3px; bell'effetto ma non richesto */
   }
   </style>
   
