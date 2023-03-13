@@ -1,6 +1,6 @@
 <template>
-    <section class="featured">
-      <div class="container">
+    <section class="featured py-5">
+      <div class="container py-5">
         <h3 class="featured-question text-center">STIMULATED TO LEARN?</h3>
         <h2 class="text-center featured-title">Featured Online Courses</h2>
   
@@ -12,7 +12,7 @@
                 <div class="card-body d-flex justify-content-between">
                   <div>
                     <p class="card-text price">{{ course.price }}</p>
-                    <h5 class="card-title">{{ course.name }}</h5>
+                    <a href="#" class="card-title">{{ course.name }}</a>
                     <div class="d-flex">
                       <p class="card-text">{{ course.lessons }}</p>
                       <p class="card-text ms-3">{{ course.students }}</p>
@@ -22,6 +22,11 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="text-center">
+            <button class="btn  all__courses">
+                <a href="#">View All Courses &#8594;</a>
+            </button>
         </div>
       </div>
     </section>
@@ -113,6 +118,11 @@
     background-color: white;
   }
   
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+
   .card-img-top > img {
     object-fit: cover;
     width: 170px;
@@ -124,11 +134,31 @@
     font-size: 22px;
     margin-bottom: 5px;
   }
+
+  .card-title:hover {
+    color:#20AD96;
+  }
   
   .card-text.price {
     font-size: 24px;
     font-weight: bold;
     color: #20AD96;
   }
+
+  button.all__courses {
+    background-color: #20AD96;
+    color: #fff;
+    padding: 10px;
+    width: 260px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+button.all__courses:hover {
+    background-color: #3F3A64;
+    color: #fff;
+}
   </style>
   

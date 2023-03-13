@@ -65,7 +65,8 @@ button.download__button {
     background-color: #20AD96;
     color: #fff;
     padding: 10px;
-    width: 240px;
+    width: 260px;
+    height: 52px;
     font-size: 14px;
     font-weight: bold;
 }
