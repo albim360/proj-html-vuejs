@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-white">
+    <header class="bg-white shadow">
       <div class="container py-3">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="col-12 col-md-3">
