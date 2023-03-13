@@ -3,7 +3,7 @@
     <section class="guide">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-5">
+                <div class="col">
                     <h2 class="head-text">
                         Distant learning for further expansion
                     </h2>
@@ -17,8 +17,10 @@
                     </a>
                     <a href="https://maxcoach.thememove.com/main/course-portal/#" class="question d-block">Have a question? <span class="free-sample">Get Free Sample &#8594;</span></a>
                 </div>
-                <div class="col-5">
-                    <img src="../images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" class="rounded rounded-circle" alt="">
+                <div class="col">
+                    <img src="../images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" class="rounded rounded-circle mc-hw" alt="">
+                    <!-- immagine sopra la foto principale -->
+                    <img src="../images/maxcoach-shape-02.png" class="img-on" alt="">
                 </div>
             </div>
             <div class="container client-img">
@@ -88,15 +90,28 @@ button.download__button:hover {
 }
 
 .client-img > img {
-    width: 120px;
     opacity: 0.5;
-    margin: 0 40px;
-    padding: 4px;
+    margin: 0 30px;
+    padding: 15px;
 }
 
 .client-img > img:hover {
     opacity: 1;
    
+}
+
+.mc-hw {
+    position: relative;
+    height: 570px;
+    width: 570px;
+    object-fit: cover;
+}
+
+.img-on {
+    position: absolute;
+    top: 272px;
+    right: 248px;
+    object-fit: cover;
 }
 
 </style>
