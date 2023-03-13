@@ -70,6 +70,11 @@ button.download__button {
     font-weight: bold;
 }
 
+button.download__button:hover {
+    background-color: #3F3A64;
+    color: #fff;
+}
+
 .free-sample {
     background-color: white ;
     color: #20AD96;
