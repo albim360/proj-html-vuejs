@@ -21,6 +21,14 @@
                     <img src="../images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" class="rounded rounded-circle" alt="">
                 </div>
             </div>
+            <div class="container client-img">
+                <img src="../images/client-logo-01.png" alt="">
+                <img src="../images/client-logo-02.png" alt="">
+                <img src="../images/client-logo-03.png" alt="">
+                <img src="../images/client-logo-04.png" alt="">
+                <img src="../images/client-logo-05.png" alt="">
+                <img src="../images/client-logo-06.png" alt="">
+            </div>
         </div>
     </section>
 
@@ -71,6 +79,18 @@ button.download__button {
 
 .question {
     margin-top: 15px;
+}
+
+.client-img > img {
+    width: 120px;
+    opacity: 0.5;
+    margin: 0 40px;
+    padding: 4px;
+}
+
+.client-img > img:hover {
+    opacity: 1;
+   
 }
 
 </style>

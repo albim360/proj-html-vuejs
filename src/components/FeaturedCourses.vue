@@ -6,7 +6,7 @@
 
 </script>
 
-<style>
-
+<style scoped>
+@import url(../../style/general.scss);
 </style>
 

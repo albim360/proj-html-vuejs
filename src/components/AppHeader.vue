@@ -23,7 +23,7 @@
                   <!-- da fixare input piccolo con bordo -->
                   <div class="input-group form-control rounded-end ">
                     <input class="border-0 mc-searchbar" type="search" placeholder="Search..." aria-label="Search">
-                    <span class="input-group-text bg-white border-0"><i class="fas aquagreen fa-search"></i></span>
+                    <span class="input-group-text bg-white border-0"><a href="#"><i class="fas aquagreen fa-search"></i></a></span>
                   </div>
                 </form>
               </li>
