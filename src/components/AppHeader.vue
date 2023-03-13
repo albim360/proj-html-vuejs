@@ -1,6 +1,6 @@
 <template>
-    <header class="bg-white shadow">
-      <div class="container py-3">
+    <header class="bg-white shadow w-100 position-fixed">
+      <div class="container py-2">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="col-12 col-md-3">
             <a class="navbar-brand" href="#">
@@ -20,6 +20,7 @@
               </li>
               <li class="nav-item">
                 <form class="d-flex">
+                  <!-- da fixare input piccolo con bordo -->
                   <div class="input-group form-control rounded-end ">
                     <input class="border-0 mc-searchbar" type="search" placeholder="Search..." aria-label="Search">
                     <span class="input-group-text bg-white border-0"><i class="fas aquagreen fa-search"></i></span>
@@ -89,9 +90,13 @@
     margin-right: 1rem;
   }
 
+  /* Classe per il bordo del searchbar inclusa icon*/
   .mc-searchbar {
     height: 33px;
     width: 165px;
   }
+
+  
+
   </style>
   
