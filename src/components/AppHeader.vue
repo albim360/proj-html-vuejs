@@ -75,6 +75,7 @@
   header {
     font-family: Gilroy, sans-serif;
     font-weight: 600;
+    z-index: 999;
   }
 
   .nav-item {
