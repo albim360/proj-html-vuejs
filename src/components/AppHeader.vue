@@ -1,20 +1,35 @@
 <template>
-    <header class="header">
-      <div class="header__logo">
-        <img src="../images/dark-logo.png" alt="Logo" />
-      </div>
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li v-for="link in links" :key="link.name">
-            <a :href="link.url">{{ link.name }}</a>
-          </li>
-          <div class="header__search">
-            <form>
-              <input type="search" placeholder="Search..." />
-            </form>
+    <header class="bg-white">
+      <div class="container py-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="col-12 col-md-3">
+            <a class="navbar-brand" href="#">
+              <img src="../images/dark-logo.png" alt="Logo" width="158">
+            </a>
           </div>
-        </ul>
-    </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+          <div class="collapse navbar-collapse justify-content-end col-12 col-md-9" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li v-for="link in links" :key="link.name" class="nav-item">
+                <a :href="link.url" class="nav-link">{{ link.name }}</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fa-regular fa-circle-user"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <form class="d-flex">
+                  <div class="input-group">
+                    <input class="form-control rounded-end" type="search" placeholder="Search" aria-label="Search">
+                    <span class="input-group-text rounded-start bg-white border-0"><i class="fas fa-search"></i></span>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
   </template>
   
@@ -22,7 +37,7 @@
   import { defineComponent } from 'vue';
   
   export default defineComponent({
-    data () {
+    data() {
       return {
         links: [
           {
@@ -56,54 +71,22 @@
   </script>
   
   <style scoped>
-  .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 25px 0;
-    border-bottom: 1px solid #e4e4e4;
-  }
-  
-  .header__logo {
-    margin-right: 40px;
-    width: 175px;
-  }
-  
-  .header__nav-list {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header__nav-list li {
-    margin-right: 30px;
-  }
-  
-  .header__nav-list li:last-child {
-    margin-right: 0;
-  }
-  
-  .header__search {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header__search form {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header__search input[type='search'] {
-    width: 260px;
-    height: 40px;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+  header {
+    font-family: Gilroy, sans-serif;
     font-weight: 600;
-    margin-right: 10px;
-    background-color: #f5f5f5;
+  }
+
+  .nav-item {
+    margin-right: 1.5rem;
+    margin-left: auto;
   }
   
-
+  .navbar-brand {
+    margin-left: 1rem;
+  }
   
+  .navbar-nav {
+    margin-right: 1rem;
+  }
   </style>
   
