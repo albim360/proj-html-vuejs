@@ -66,21 +66,6 @@ section.guide {
     margin-bottom: 15px;
 }
 
-button.download__button {
-    background-color: $primary-color;
-    color: #fff;
-    padding: 10px;
-    width: 260px;
-    height: 52px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-button.download__button:hover {
-    background-color: $secondary-color;
-    color: #fff;
-}
-
 .free-sample {
     background-color: white;
     color: $primary-color;

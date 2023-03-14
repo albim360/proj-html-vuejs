@@ -90,6 +90,34 @@
             <i class="fa-solid fa-circle"></i>
         </div>
     </section>
+
+    <section class="certificate">
+        <div class="text-center">
+            <h4 class="section-subtitle">
+                Start today for getting
+                <span class="aquagreen-title">
+                    Online Certification
+                </span>
+            </h4>
+            <h2 class="section-title p-0">
+                You can be your own guiding star with our help!
+            </h2>
+        </div>
+        <div class="get-started">
+            <button>
+                <a href="#">Get started now</a>
+            </button>
+        </div>
+    </section>
+    <section class="number">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </section>
 </template>
 
 
@@ -104,6 +132,7 @@
 section.top-learners {
     background-color: $card-color;
     padding-top: 100px;
+    padding-bottom: 110px;
     font-family: Gilroy, sans-serif;
     min-height: 500px;
 
@@ -133,10 +162,11 @@ section.top-learners {
         }
 
     }
+
     .card-extra {
         font-size: 14px;
         color: #7e7e7e;
-      }
+    }
 
     .card-body {
         padding: 20px;
@@ -161,8 +191,8 @@ section.top-learners {
             font-weight: bold;
             color: #696969;
         }
-        
-          
+
+
     }
 }
 
@@ -173,7 +203,7 @@ section.top-learners {
     justify-content: center;
 }
 
-.pointer > i {
+.pointer>i {
     font-size: 9px;
     color: #7e7e7e;
     margin: 0 7px;
@@ -182,5 +212,16 @@ section.top-learners {
 .pointer :first-child {
     font-size: 14px;
     color: black
+}
+
+.certificate {
+    background-color: $card-color;
+    padding-bottom: 100px;
+    font-family: Gilroy, sans-serif;
+}
+
+.get-started {
+    text-align: center;
+    margin-top: 50px;
 }
 </style>

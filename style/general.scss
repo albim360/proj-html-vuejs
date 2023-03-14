@@ -29,6 +29,10 @@ menu {
     color: currentColor
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 .section-descr {
     color: #9ea4a5;
@@ -46,7 +50,30 @@ menu {
     text-align: center;
   }
 
+  .section-subtitle {
+    font-size: 24px;
+    color: #3f3a64;;
+    font-weight: bold;
+  }
+
   .aquagreen-title {
     font-weight: 100;
     color: #20AD96;
   }
+
+  button{
+    background-color: #20AD96;
+    color: #fff;
+    padding: 10px;
+    width: 260px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3f3a64;
+    color: #fff;
+}
