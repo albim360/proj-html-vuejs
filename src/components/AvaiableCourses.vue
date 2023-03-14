@@ -62,8 +62,7 @@
                         <div class="background-iframe">
                             <iframe width="670" height="450" src="https://www.youtube.com/embed/ElFJ1qcl74U"
                                 title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                ></iframe>
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
                     <div class="col-3 text-left">
@@ -78,7 +77,8 @@
                             <span class="aquagreen">Companionship</span>
                         </h2>
                         <p class="mb-5 fs-18">
-                            Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some
+                            Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for
+                            some
                             hidden hints of early-bird rewards as well.
                         </p>
                         <span class="start aquagreen">
@@ -95,9 +95,11 @@
 
 </script>
   
-<style scoped>
+<style lang="scss" scoped>
 /* Importa il file di stile generale */
-@import url(../../style/general.scss);
+@use '../../style/variable.scss' as *;
+@use '../../style/general.scss' as *;
+
 
 section.avaiable__courses {
     padding-top: 90px;
@@ -137,7 +139,7 @@ section.avaiable__courses {
     font-weight: 700;
     margin-top: 20px;
     padding-bottom: 20px;
-} 
+}
 
 .start {
     color: #494753;
@@ -147,7 +149,7 @@ section.avaiable__courses {
 }
 
 .start:hover {
-    color: #20AD96;
+    color: $primary-color;
 }
 
 p {
@@ -171,7 +173,7 @@ p {
 }
 
 .video {
-    margin-top:130px
+    margin-top: 130px
 }
 
 .background-iframe {
@@ -180,7 +182,7 @@ p {
     border-radius: 10px;
 }
 
-.background-iframe iframe{
+.background-iframe iframe {
     background: transparent;
 }
 
@@ -191,5 +193,4 @@ p {
 .fs-14 {
     font-size: 14px;
 }
-
 </style>

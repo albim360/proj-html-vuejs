@@ -71,7 +71,11 @@
   });
   </script>
   
-  <style scoped>
+  <style lang="scss" scoped>
+  @use '../../style/variable.scss' as *;
+  @use '../../style/general.scss' as *;
+
+
   header {
     font-family: Gilroy, sans-serif;
     font-weight: 600;
@@ -102,11 +106,11 @@ a {
 }
 
   a:hover {
-    color: #20AD96;
+    color: $primary-color;
   }
 
   a:not(.nohover):hover {
-    border-bottom: 1px solid #20AD96;
+    border-bottom: 1px solid $primary-color;
     /* padding-bottom: 3px; bell'effetto ma non richesto */
   }
 

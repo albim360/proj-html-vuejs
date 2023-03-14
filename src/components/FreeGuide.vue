@@ -1,5 +1,4 @@
 <template>
-
     <section class="guide">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -8,17 +7,21 @@
                         Distant learning for further expansion
                     </h2>
                     <p class="p-learning">
-                        Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process.
+                        Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy
+                        the process.
                     </p>
-                    <a href="https://maxcoach.thememove.com/main/wp-content/uploads/sites/1/2020/03/benefits-of-all-remote.pdf">
+                    <a
+                        href="https://maxcoach.thememove.com/main/wp-content/uploads/sites/1/2020/03/benefits-of-all-remote.pdf">
                         <button class="btn download__button">
                             <i class="fa-solid fa-download"></i> Download free Guide
-                            </button>
+                        </button>
                     </a>
-                    <a href="https://maxcoach.thememove.com/main/course-portal/#" class="question d-block">Have a question? <span class="free-sample">Get Free Sample &#8594;</span></a>
+                    <a href="https://maxcoach.thememove.com/main/course-portal/#" class="question d-block">Have a question?
+                        <span class="free-sample">Get Free Sample &#8594;</span></a>
                 </div>
                 <div class="col">
-                    <img src="../images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" class="rounded rounded-circle mc-hw" alt="">
+                    <img src="../images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
+                        class="rounded rounded-circle mc-hw" alt="">
                     <!-- immagine sopra la foto principale -->
                     <img src="../images/maxcoach-shape-02.png" class="img-on" alt="">
                 </div>
@@ -33,15 +36,15 @@
             </div>
         </div>
     </section>
-
 </template>
 
 <script>
 
 </script>
 
-<style scoped>
-@import url(../../style/general.scss);
+<style lang="scss" scoped>
+@use '../../style/variable.scss' as *;
+@use '../../style/general.scss' as *;
 
 section.guide {
     padding-top: 150px;
@@ -79,7 +82,7 @@ button.download__button:hover {
 }
 
 .free-sample {
-    background-color: white ;
+    background-color: white;
     color: #20AD96;
     font-weight: bold;
     font-size: 15px;
@@ -89,15 +92,15 @@ button.download__button:hover {
     margin-top: 15px;
 }
 
-.client-img > img {
+.client-img>img {
     opacity: 0.5;
     margin: 0 30px;
     padding: 15px;
 }
 
-.client-img > img:hover {
+.client-img>img:hover {
     opacity: 1;
-   
+
 }
 
 .mc-hw {
@@ -113,7 +116,5 @@ button.download__button:hover {
     right: 360px;
     object-fit: cover;
 }
-
-
 </style>
 

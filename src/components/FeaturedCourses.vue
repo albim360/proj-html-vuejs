@@ -7,7 +7,7 @@
         <div class="col-12 col-md-6 col-lg-6" v-for="(course, index) in courses" :key="index">
           <div class="card p-4 border-0 d-flex">
             <div class="card-img-top d-flex justify-content-start align-items-center">
-              <img :src="'./src/images/' + course.image + '.jpg'" alt="" class="rounded-circle img-fluid float-start">
+              <img :src="'./public/images/' + course.image + '.jpg'" alt="" class="rounded-circle img-fluid float-start">
               <div class="card-body d-flex justify-content-between">
                 <div>
                   <p class="card-text price">{{ course.price }}</p>
@@ -85,7 +85,10 @@ export default {
 };
 </script>
   
-<style scoped>
+<style lang="scss" scoped>
+@use '../../style/variable.scss' as *;
+@use '../../style/general.scss' as *;
+
 .featured {
   background-color: #f5f7fa;
   padding-top: 100px;
@@ -135,17 +138,17 @@ a {
 }
 
 .card-title:hover {
-  color: #20AD96;
+  color: $primary-color;
 }
 
 .card-text.price {
   font-size: 24px;
   font-weight: bold;
-  color: #20AD96;
+  color: $primary-color;
 }
 
 button.all__courses {
-  background-color: #20AD96;
+  background-color: $primary-color;
   color: #fff;
   padding: 10px;
   width: 260px;
