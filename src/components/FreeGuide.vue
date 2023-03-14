@@ -81,6 +81,10 @@ section.guide {
     margin-top: 15px;
 }
 
+.client-img {
+    padding-bottom: 40px;
+}
+
 .client-img>img {
     opacity: 0.5;
     margin: 0 30px;

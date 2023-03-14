@@ -143,6 +143,7 @@ section.top-learners {
         overflow: hidden;
         padding: 41px 50px 36px;
         height: 383px;
+        width: 564px;
 
         .card-img {
             display: flex;
