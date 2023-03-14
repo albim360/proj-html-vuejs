@@ -20,19 +20,19 @@
                         <span class="free-sample">Get Free Sample &#8594;</span></a>
                 </div>
                 <div class="col">
-                    <img src="../images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
+                    <img src="../../public/images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
                         class="rounded rounded-circle mc-hw" alt="">
                     <!-- immagine sopra la foto principale -->
-                    <img src="../images/maxcoach-shape-02.png" class="img-on" alt="">
+                    <img src="" class="img-on" alt="">
                 </div>
             </div>
             <div class="container client-img">
-                <img src="../images/client-logo-01.png" alt="">
-                <img src="../images/client-logo-02.png" alt="">
-                <img src="../images/client-logo-03.png" alt="">
-                <img src="../images/client-logo-04.png" alt="">
-                <img src="../images/client-logo-05.png" alt="">
-                <img src="../images/client-logo-06.png" alt="">
+                <img src="../../public/images/client-logo-01.png" alt="">
+                <img src="../../public/images/client-logo-02.png" alt="">
+                <img src="../../public/images/client-logo-03.png" alt="">
+                <img src="../../public/images/client-logo-04.png" alt="">
+                <img src="../../public/images/client-logo-05.png" alt="">
+                <img src="../../public/images/client-logo-06.png" alt="">
             </div>
         </div>
     </section>
