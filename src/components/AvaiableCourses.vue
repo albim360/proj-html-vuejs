@@ -4,7 +4,7 @@
         <h3 class="section-descr text-center">MAXCOACH AVAIBLE COURSES</h3>
         <h2 class="text-center avaiable-title">
             Access
-            <span class="aquagreen">Smart Tutoring</span>
+            <span class="aquagreen-title ">Smart Tutoring</span>
             Program For Benefits.
         </h2>
         <div class="container">
@@ -74,7 +74,7 @@
                         </h3>
                         <h2 class="text-center title-card text-left">
                             Enjoy Our
-                            <span class="aquagreen">Companionship</span>
+                            <span class="aquagreen-title ">Companionship</span>
                         </h2>
                         <p class="mb-5 fs-18">
                             Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for
@@ -106,10 +106,6 @@ section.avaiable__courses {
     font-family: Gilroy, sans-serif;
 }
 
-.section-descr {
-    color: #9ea4a5;
-    font-size: 15px;
-}
 
 /* Regola di debug per limitare la larghezza delle colonne */
 .row>.col-4 {

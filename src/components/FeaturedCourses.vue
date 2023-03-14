@@ -1,8 +1,8 @@
 <template>
   <section class="featured py-5">
     <div class="container py-5">
-      <h3 class="featured-question text-center">STIMULATED TO LEARN?</h3>
-      <h2 class="text-center featured-title">Featured Online Courses</h2>
+      <h3 class="section-descr  text-center">STIMULATED TO LEARN?</h3>
+      <h2 class="text-center section-title">Featured Online Courses</h2>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6" v-for="(course, index) in courses" :key="index">
           <div class="card p-4 border-0 d-flex">
@@ -94,19 +94,6 @@ export default {
   padding-top: 100px;
   font-family: Gilroy, sans-serif;
 
-}
-
-.featured-question {
-  color: $featured-color;
-  font-size: 15px;
-}
-
-.featured-title {
-  color: $secondary-color;
-  font-size: 34px;
-  font-weight: 700;
-  margin-top: 10px;
-  padding-bottom: 60px;
 }
 
 .card {
