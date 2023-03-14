@@ -55,19 +55,19 @@ section.guide {
     line-height: 1.3;
     font-size: 48px;
     font-weight: 600;
-    color: #3f3a64;
+    color: $secondary-color;
     margin-bottom: 10px;
 }
 
 .p-learning {
     font-size: 18px;
-    color: #8c89a2;
+    color: $tertiary-color;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 button.download__button {
-    background-color: #20AD96;
+    background-color: $primary-color;
     color: #fff;
     padding: 10px;
     width: 260px;
@@ -77,15 +77,19 @@ button.download__button {
 }
 
 button.download__button:hover {
-    background-color: #3F3A64;
+    background-color: $secondary-color;
     color: #fff;
 }
 
 .free-sample {
     background-color: white;
-    color: #20AD96;
+    color: $primary-color;
     font-weight: bold;
     font-size: 15px;
+}
+
+.free-sample:hover {
+    border-bottom: 1px solid $primary-color;
 }
 
 .question {

@@ -117,7 +117,7 @@ section.avaiable__courses {
 }
 
 .avaiable-title {
-    color: #3f3a64;
+    color: $secondary-color;
     font-size: 34px;
     font-weight: 700;
     margin-top: 10px;
@@ -125,7 +125,7 @@ section.avaiable__courses {
 }
 
 .title-function {
-    color: #3f3a64;
+    color: $secondary-color;
     font-size: 22px;
     font-weight: 700;
     margin-top: 22px;
@@ -133,7 +133,7 @@ section.avaiable__courses {
 }
 
 .title-card {
-    color: #3f3a64;
+    color: $secondary-color;
     font-size: 48px;
     line-height: 1.2;
     font-weight: 700;
@@ -165,11 +165,11 @@ p {
 }
 
 .start.aquagreen {
-    border-bottom: 1px solid #8c89a280
+    border-bottom: 1px solid $tertiary-color;
 }
 
 .start:hover {
-    border-bottom: 1px solid #8c89a280
+    border-bottom: 1px solid $tertiary-color;
 }
 
 .video {

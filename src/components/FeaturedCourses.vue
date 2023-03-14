@@ -90,19 +90,19 @@ export default {
 @use '../../style/general.scss' as *;
 
 .featured {
-  background-color: #f5f7fa;
+  background-color: $background-color;
   padding-top: 100px;
   font-family: Gilroy, sans-serif;
 
 }
 
 .featured-question {
-  color: #9ea4a5;
+  color: $featured-color;
   font-size: 15px;
 }
 
 .featured-title {
-  color: #3f3a64;
+  color: $secondary-color;
   font-size: 34px;
   font-weight: 700;
   margin-top: 10px;
@@ -111,7 +111,7 @@ export default {
 
 .card {
   margin-bottom: 30px;
-  background-color: #f5f7fa;
+  background-color: $card-color;
   border: none;
   height: 210px;
 }
@@ -159,7 +159,7 @@ button.all__courses {
 }
 
 button.all__courses:hover {
-  background-color: #3F3A64;
+  background-color: $secondary-color;
   color: #fff;
 }
 </style>
