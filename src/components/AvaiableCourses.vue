@@ -12,7 +12,7 @@
             <div class="row justify-content-between">
                 <!-- Prima colonna -->
                 <div class="col-4">
-                    <img src="../images/home-2-image-box-01.png" alt="">
+                    <img src="../../public/images/home-2-image-box-01.png" alt="">
                     <!-- Titolo  -->
                     <span class="d-block title-function">
                         <a href="#">Customize Preferences</a>
@@ -29,7 +29,7 @@
                 </div>
                 <!-- Seconda colonna -->
                 <div class="col-4">
-                    <img src="../images/about-us-02-image-box-02.png" alt="">
+                    <img src="../../public/images/about-us-02-image-box-02.png" alt="">
                     <span class="d-block title-function">
                         <a href="#">Cloud Storage</a>
                     </span>
@@ -43,7 +43,7 @@
                 </div>
                 <!-- Terza colonna -->
                 <div class="col-4">
-                    <img src="../images/home-2-image-box-03.png" alt="">
+                    <img src="../../public/images/home-2-image-box-03.png" alt="">
                     <span class="d-block title-function">
                         <a href="#">Multimedia Channels</a>
                     </span>

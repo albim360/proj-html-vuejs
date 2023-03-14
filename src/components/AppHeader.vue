@@ -4,7 +4,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="col-12 col-md-3">
             <a class="navbar-brand nohover" href="#">
-              <img src="../images/dark-logo.png" alt="Logo" width="158">
+              <img src="../../public/images/dark-logo.png" alt="Logo" width="158">
             </a>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
