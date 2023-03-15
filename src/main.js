@@ -3,5 +3,6 @@ import '../style/general.scss'
 import App from './App.vue'
 import '../style/variable.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import YouTubeEmbed from 'youtube-embed'
 
-createApp(App).mount('#app')
+createApp(App).use(YouTubeEmbed).mount('#app')

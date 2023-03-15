@@ -12,7 +12,8 @@
     "@fortawesome/fontawesome-free": "^6.3.0",
     "bootstrap": "^5.3.0-alpha1",
     "sass": "^1.59.2",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "youtube-embed": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",

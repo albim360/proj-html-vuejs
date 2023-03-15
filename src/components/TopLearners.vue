@@ -90,8 +90,10 @@
             <i class="fa-solid fa-circle"></i>
         </div>
     </section>
-
-    <section class="certificate">
+<!-- INIZIO SEZIONE CON BOTTONE E START TODAY -->
+    <section class="certificate position-relative">
+        <img src="../../public/images/maxcoach-shape-02.png" class="hover-img-1" alt="">
+        <img src="../../public/images/maxcoach-shape-01.png" class="hover-img-2" alt="">
         <div class="text-center">
             <h4 class="section-subtitle">
                 Start today for getting
@@ -290,5 +292,17 @@ section.top-learners {
     &:first-child {
         border-left: 1px solid gainsboro;
     }
+}
+/** img in hover **/
+.hover-img-1 {
+    position: relative;
+    left: 1400px;
+    top: 100px;
+}
+
+.hover-img-2 {
+    position: relative;
+    left: 100px;
+    top: 100px;
 }
 </style>

@@ -21,9 +21,11 @@
                 </div>
                 <div class="col">
                     <img src="../../public/images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
-                        class="rounded rounded-circle mc-hw" alt="">
+                        class="rounded rounded-circle mc-hw" style="z-index: 600;" alt="">
                     <!-- immagine sopra la foto principale -->
                     <img src="../../public/images/maxcoach-shape-02.png" class="img-on" alt="">
+                    <img src="../../public/images/maxcoach-shape-05.png" style=" position: relative; bottom: 138px; right: 24px;" alt="">
+                    <img src="../../public/images/maxcoach-shape-07.png" style="position: relative; bottom: 178px; left: 197px;" alt="">
                 </div>
             </div>
             <div class="container client-img">

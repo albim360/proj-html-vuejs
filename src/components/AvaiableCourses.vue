@@ -12,7 +12,7 @@
             <div class="row justify-content-between">
                 <!-- Prima colonna -->
                 <div class="col-4">
-                    <img src="../../public/images/home-2-image-box-01.png" alt="">
+                    <img src="../../public/images/home-2-image-box-01.png" alt="" />
                     <!-- Titolo  -->
                     <span class="d-block title-function">
                         <a href="#">Customize Preferences</a>
@@ -29,7 +29,7 @@
                 </div>
                 <!-- Seconda colonna -->
                 <div class="col-4">
-                    <img src="../../public/images/about-us-02-image-box-02.png" alt="">
+                    <img src="../../public/images/about-us-02-image-box-02.png" alt="" />
                     <span class="d-block title-function">
                         <a href="#">Cloud Storage</a>
                     </span>
@@ -43,7 +43,7 @@
                 </div>
                 <!-- Terza colonna -->
                 <div class="col-4">
-                    <img src="../../public/images/home-2-image-box-03.png" alt="">
+                    <img src="../../public/images/home-2-image-box-03.png" alt="" />
                     <span class="d-block title-function">
                         <a href="#">Multimedia Channels</a>
                     </span>
@@ -59,12 +59,10 @@
             <section class="video">
                 <div class="row py-5">
                     <div class="col-7 text-right me-5">
-                        <div class="background-iframe">
-                            <iframe width="670" height="450" src="https://www.youtube.com/embed/ElFJ1qcl74U"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                        <div class="youtube" id="ffiJNSy8CBA"
+                            style="background-image: url('../../public/images/home-2-popup-video-poster.jpg')"></div>
+                            <iframe id="video-element" width="670" height="450" src="https://www.youtube.com/embed/ElFJ1qcl74U"></iframe>
                         </div>
-                    </div>
                     <div class="col-3 text-left">
                         <h3 class="section-descr fw-bold text-left">
                             GET STARTED
@@ -82,18 +80,29 @@
                             hidden hints of early-bird rewards as well.
                         </p>
                         <span class="start aquagreen">
-                            <a href="https://maxcoach.thememove.com/main/course-portal/#">Download free guidebook&#8594;</a>
+                            <button class="btn">
+                                <a href="https://maxcoach.thememove.com/main/course-portal/#">Download free guidebook→</a>
+                            </button>
                         </span>
                     </div>
                 </div>
             </section>
         </div>
+
     </section>
 </template>
-  
-<script>
 
+<script>
+import YouTubeEmbed from 'youtube-embed';
+
+export default {
+  mounted() {
+    const video = document.querySelector('#video-element');
+    YouTubeEmbed.setPoster(video, 'https://maxcoach.thememove.com/main/wp-content/uploads/sites/1/2019/12/home-2-popup-video-poster.jpg');
+  }
+}
 </script>
+
   
 <style lang="scss" scoped>
 /* Importa il file di stile generale */

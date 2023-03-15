@@ -57,8 +57,10 @@
                 </div>
                 <div class="col-4 card-col">
                     <div class="card">
-                        <img src="https://maxcoach.thememove.com/main/wp-content/uploads/sites/1/2020/12/home-personal-finance-blog-03-480x352.jpg"
-                            alt="">
+                        <div class="card-image">
+                            <img src="https://maxcoach.thememove.com/main/wp-content/uploads/sites/1/2020/12/home-personal-finance-blog-03-480x352.jpg"
+                                alt="">
+                        </div>
                         <div class="card-body">
                             <h3 class="section-descr text-start p-2">
                                 BUSINESS
@@ -148,7 +150,7 @@ ul>li {
 }
 
 .card-col {
-max-width: 349px;
+    max-width: 349px;
 
 }
 
@@ -158,14 +160,6 @@ max-width: 349px;
     border: none;
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
 }
-
-.card-image {
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .card:hover .card-image {
-    transform: scale(1.1);
-  }
 
 img {
     height: 249px;

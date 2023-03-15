@@ -20,6 +20,7 @@ import TopLearners from './components/TopLearners.vue'
 import Insights from './components/Insights.vue'
 import Newsletter from './components/Newsletter.vue'
 import AppFooter from './components/AppFooter.vue'
+
 </script>
 
 
