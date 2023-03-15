@@ -157,8 +157,15 @@ max-width: 349px;
     width: 349px;
     border: none;
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
-
 }
+
+.card-image {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .card:hover .card-image {
+    transform: scale(1.1);
+  }
 
 img {
     height: 249px;
@@ -167,6 +174,10 @@ img {
 
 .card-title {
     font-size: 20px;
+}
+
+.card-title:hover {
+    color: $primary-color;
 }
 
 .card-details {
