@@ -23,7 +23,7 @@
                     <img src="../../public/images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
                         class="rounded rounded-circle mc-hw" alt="">
                     <!-- immagine sopra la foto principale -->
-                    <img src="" class="img-on" alt="">
+                    <img src="../../public/images/maxcoach-shape-02.png" class="img-on" alt="">
                 </div>
             </div>
             <div class="container client-img">

@@ -109,12 +109,14 @@
             </button>
         </div>
     </section>
-    <section class="number">
-        <div class="container">
-            <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4"></div>
-                <div class="col-4"></div>
+    <section class="number-section">
+        <div class="container mc-p52">
+            <div class="row align-items-center">
+                <div v-for="(item, index) in result" :key="index" class="col-3 text-center mc-p15 border-lr">
+                    <h3 class="section-subtitle">{{ item.title }}</h3>
+                    <span class="number">{{ item.number }}</span>
+                    <p class="section-descr">{{ item.type }}</p>
+                </div>
             </div>
         </div>
     </section>
@@ -123,11 +125,44 @@
 
 <script>
 
+export default {
+    data() {
+        return {
+            result: [
+                {
+                    title: "Successfully trained",
+                    number: 1790,
+                    type: "ENROLLED LEARNERS"
+                },
+                {
+                    title: "Proudly Received",
+                    number: 19,
+                    type: "COUNTRYWIDE AWARDS"
+                },
+                {
+                    title: "Firmly Established",
+                    number: 24,
+                    type: "LOCAL BRANCHES"
+                },
+                {
+                    title: "Getting Featured on",
+                    number: 1090,
+                    type: "BLOG POSTS"
+                }
+            ]
+        };
+    }
+};
+
 </script>
 
 <style lang="scss" scoped>
 @use '../../style/variable.scss' as *;
 @use '../../style/general.scss' as *;
+
+section {
+    font-family: Gilroy, sans-serif;
+}
 
 section.top-learners {
     background-color: $card-color;
@@ -225,4 +260,36 @@ section.top-learners {
     text-align: center;
     margin-top: 50px;
 }
-</style>
+
+.number {
+    font-size: 64px;
+    font-weight: bold;
+    color: $primary-color;
+ }
+  
+.mc-p52 {
+    padding: 0 52px 0;
+}
+
+.mc-p15 {
+    padding: 0 70px;
+}
+
+.col-3 {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid gainsboro;
+    text-align: center;
+    padding: 30px;
+
+    &:first-child {
+        border-left: 1px solid gainsboro;
+    }
+
+    &:last-child {}
+}</style>

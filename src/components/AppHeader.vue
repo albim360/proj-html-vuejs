@@ -20,10 +20,9 @@
               </li>
               <li class="nav-item">
                 <form class="d-flex">
-                  <!-- da fixare input piccolo con bordo -->
                   <div class="input-group form-control rounded-end ">
                     <input class="border-0 mc-searchbar" type="search" placeholder="Search..." aria-label="Search">
-                    <span class="input-group-text bg-white border-0 "><a href="#" class="nohover"><i class="fas aquagreen fa-search"></i></a></span>
+                    <span class="input-group-text border-0 "><a href="#" class="nohover"><i class="fas aquagreen fa-search"></i></a></span>
                   </div>
                 </form>
               </li>
@@ -99,10 +98,20 @@
   .mc-searchbar {
     height: 33px;
     width: 165px;
+    background-color: #f5f5f5 ;
   }
 
 a {
   padding-bottom: 0;
+}
+
+/** classe per background coplor searchbar */
+div.input-group {
+  background-color: #f5f5f5 ;
+}
+
+div.input-group > span {
+  background-color: #f5f5f5 ;
 }
 
   a:hover {
