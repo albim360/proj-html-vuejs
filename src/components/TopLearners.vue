@@ -112,7 +112,7 @@
     <section class="number-section">
         <div class="container mc-p52">
             <div class="row align-items-center">
-                <div v-for="(item, index) in result" :key="index" class="col-3 text-center mc-p15 border-lr">
+                <div v-for="(item, index) in result" :key="index" class="col-3 text-center mc-p15">
                     <h3 class="section-subtitle">{{ item.title }}</h3>
                     <span class="number">{{ item.number }}</span>
                     <p class="section-descr">{{ item.type }}</p>
@@ -290,6 +290,5 @@ section.top-learners {
     &:first-child {
         border-left: 1px solid gainsboro;
     }
-
-    &:last-child {}
-}</style>
+}
+</style>
