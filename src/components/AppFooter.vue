@@ -9,7 +9,7 @@
                                 <p class="card-title petroil fs-18 fw-bold">Address</p>
                                 <p class="">382 NE 191st St # 87394 Miami, FL 33179-3899</p>
                                 <p>+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)</p>
-                                <p>support@maxcoach.com</p>
+                                <a href="#">support@maxcoach.com</a>
                             </div>
                             <div class="icons d-flex">
                                 <a href="#" class="icon">
@@ -119,5 +119,9 @@ footer {
     color: #949494;
     font-size: 14px;
     font-weight: 600;
+}
+
+a:hover {
+    color: $primary-color;
 }
 </style>
