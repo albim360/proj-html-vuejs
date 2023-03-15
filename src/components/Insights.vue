@@ -1,7 +1,7 @@
 <template>
     <section class="insights">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-around">
                 <div class="col-4">
                     <h3 class="section-descr text-start">
                         ENJOYABLE INSIGHTS
@@ -148,11 +148,13 @@ ul>li {
 }
 
 .card-col {
-    max-width: 340px;
+max-width: 349px;
+
 }
 
 .card {
     height: 439px;
+    width: 349px;
     border: none;
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
 
