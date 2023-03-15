@@ -105,7 +105,7 @@
 
 .insights {
     background-color: $insights-color;
-    padding: 140px 0;
+    padding: 127px 0;
     font-family: Gilroy, sans-serif;
 }
 

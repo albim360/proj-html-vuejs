@@ -109,7 +109,7 @@ export default {
 
 a {
   text-decoration: none;
-  color: $secondary-color;
+  color: white;
 }
 
 .card-img-top>img {
