@@ -5,6 +5,7 @@
         <FeaturedCourses />
         <AvaiableCourses />
         <TopLearners />
+        <Insights />
         <AppFooter />
     </div>
 </template>
@@ -15,6 +16,7 @@ import FreeGuide from './components/FreeGuide.vue'
 import FeaturedCourses from './components/FeaturedCourses.vue'
 import AvaiableCourses from './components/AvaiableCourses.vue'
 import TopLearners from './components/TopLearners.vue'
+import Insights from './components/Insights.vue'
 import AppFooter from './components/AppFooter.vue'
 </script>
 
